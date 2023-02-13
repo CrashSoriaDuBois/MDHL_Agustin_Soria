@@ -5,42 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        #Logo {
-            height: 70px;
-            float: left;
-        }
-        .Image {
-            height: 100px;
-        }
-    </style>
+    <title>Home</title>
+    <link rel="shortcut icon" href="/Assets/Images/Logo_Mighty_ducks-01.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="my-style.css">
 </head>
 
 <body>
     <header>
-        <img id="Logo" src="/Assets/Images/Logo_Mighty_ducks-01.png" alt="Logo de Mighty ducks">
-        <h1>Mighty Ducks Hockey League</h1>
+        <div>
+            <h1>Mighty Ducks Hockey League</h1>
+        </div>
+        <nav>
+            <a href="/home.html" class="mainButton">Home</a>
+            <a href="/about.html"> About</a>
+            <a href="/contact.html"> contact</a>
+        </nav>
     </header>
-    <nav>
-        <a href="/home.html">Home</a> |
-        <a href="/about.html"> About MDHL</a> |
-        <a href="/contact.html"> contact</a>
-    </nav>
-    <div>
-        <img class="Image" src="/Assets/Images/hockey__1.jpg" alt="imagen de jugador de hockey">
-        <h3>Upcoming Events</h3>
-        <div>
-            <div>August 4</div>
-            <div>MDSL Fundraiser</div>
-        </div>
-        <div>
-            <div>August 16</div>
-            <div>Season Kick-off: Meet the Teams</div>
-        </div>
-        <div>
-            <div>September 1</div>
-            <div>First Game of the Season (Check Game Schedule for details)</div>
+    <div >
+        <img class="Image" src="/Assets/Images/design1_image1.jpg" alt="imagen de jugador de hockey">
+        <h3 class="titleCenter">Upcoming Events</h3>
+        <div class="content">
+            <div class="cajaL"><img id="Logo" src="/Assets/Images/Logo_Mighty_ducks-01.png" alt="Logo de Mighty ducks">
+            </div>
+            <div class="cajaR">
+                <div>
+                    <div class="title">August 4</div>
+                    <p class="text">MDSL Fundraiser</p>
+                </div>
+                <div>
+                    <div class="title">August 16</div>
+                    <p class="text">Season Kick-off: Meet the Teams</p>
+                    <div>
+                        <div class="title">September 1</div>
+                        <p class="text">First Game of the Season (Check Game Schedule for details)</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

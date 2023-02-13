@@ -1,0 +1,112 @@
+ * {
+    border: 0px solid red;
+    margin: 0;
+    color: #fff;
+} 
+p{
+    margin: 7px;
+}
+body{
+    background-color: #121918;
+}
+/* #4b423c  #121918      #ff862c;   #ffffff*/
+header {
+    display: flex;
+    flex: 1;
+    background-color: #fff;
+}
+
+nav {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    left: 0px;
+}
+
+.mainButton {
+    color: #ff862c;
+    text-decoration:underline
+}
+
+#Logo {
+    height: 70px;
+    margin-right: 10px;
+}
+
+.Image {
+    width: 100%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 20px;
+    text-decoration:underline
+
+}
+
+.text {
+    margin-left: 30px;
+    font-size: small;
+}
+
+.content {
+    display: flex;
+}
+
+h3,
+h1 {
+    text-align: center;
+}
+h1{
+    color: #4b423c;
+    font-weight: 50;
+    margin: 30px
+}
+
+
+
+
+nav a {
+    margin: 0.3rem;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: #4b423c;
+    background-color: #fff;
+    border-radius: 5px;
+
+    transition: 0.2s;
+}
+
+nav a:hover {
+    background-color: #121918;
+    transform: scale(1.1);
+    color: #fff;
+}
+
+nav a:active {
+    background-color: #ff862c;
+    transform: scale(0.9);
+    color: #fff
+}
+
+
+
+#Logo {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#Logo:hover {
+    transform: rotateY(360deg);
+}
+
+#Logo:active {
+    transform: scale(1.5);
+}
