@@ -1,0 +1,257 @@
+/* 
+  #121918 #fff #ff862c
+Defaults __________________________________
+
+*/
+
+* {
+    border: px solid red;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.Logo {
+    height: 55px;
+}
+
+/* 
+
+Nav __________________________________
+
+*/
+nav {
+    /* flexBox */
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    /* Styles */
+}
+
+nav>div {
+    /* flexBox */
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    min-width: 100px;
+
+    /* Styles */
+}
+
+nav>ul {
+    /* flexBox */
+    padding: 0;
+    display: flex;
+    flex: 2;
+    min-width: 250px;
+    flex-wrap: wrap;
+    /* Styles */
+
+    padding: 0;
+    margin: 0;
+
+}
+
+nav>ul>li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-width: 100px;
+}
+
+nav>ul>li>* {
+    /* flexBox */
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-width: 100px;
+    /* Styles */
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #4b423c;
+
+    /* border-radius: 5px; */
+
+}
+
+/* nav>ul>li.main {
+    flex-basis: 20%;
+    border: 0.1rem solid #ff862c;
+} */
+
+nav>ul>li.main>* {
+    color: #ff862c;
+    flex-basis: 30%;
+    border: 0.1rem solid #ff862c;
+}
+
+.tabla {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+/* 
+
+Header __________________________________
+
+*/
+header>div {
+    display: flex;
+}
+
+.Image {
+    width: 100%;
+}
+
+.headerContainer {
+    position: relative;
+    text-align: center;
+}
+
+.headerContainer>h1 {
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #000000a6;
+    color: #afafaf;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+/* 
+
+Section __________________________________
+
+*/
+body>h2 {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contenidoSection {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.title {
+
+    font-size: 1em;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+
+    margin-bottom: 0.5rem;
+}
+
+.text {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0.5rem;
+
+}
+
+section>div>img.Logo {
+    height: 150px;
+    transition: 0.7s;
+}
+
+ol>li{
+    font-size: 1em;
+    font-weight: bolder;
+}
+.notWeight{
+    font-size: 1em;
+    font-weight:500;
+}
+/* 
+
+Footer __________________________________
+
+*/
+
+/* 
+
+Animations __________________________________
+
+*/
+
+.Logo {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Logo:hover {
+    transform: rotateY(360deg);
+}
+
+.Logo:active {
+    transform: scale(1.5);
+}
+
+.headerContainer>h1 {
+    transition: 0.5s;
+}
+
+.headerContainer>h1:hover {
+    background-color: #afafafb3;
+    color: #000000a6;
+
+}
+
+nav>ul>li>* {
+    transition: 0.2s;
+}
+
+nav>ul>li>*:hover {
+    transform: scale(1.15);
+    border: 0.0rem;
+    background-color: #242424;
+    color: #fff;
+}
+
+nav>ul>li>*:active {
+    background-color: #ff862c;
+    transform: scale(0.9);
+    color: #fff;
+}

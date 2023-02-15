@@ -5,44 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        #Logo {
-            height: 70px;
-            float: left;
-        }
-        .Image {
-            height: 100px;
-        }
-    </style>
+    <title>Home</title>
+    <link rel="shortcut icon" href="/Assets/Images/Logo_Mighty_ducks-01.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="my-style.css">
 </head>
 
 <body>
-    <header>
-        <img id="Logo" src="/Assets/Images/Logo_Mighty_ducks-01.png" alt="Logo de Mighty ducks">
-        <h1>Mighty Ducks Hockey League</h1>
-    </header>
     <nav>
-        <a href="/home.html">Home</a> |
-        <a href="/about.html"> About MDHL</a> |
-        <a href="/contact.html"> contact</a>
+        <div>
+            <img class="Logo" src="/Assets/Images/Logo_Mighty_ducks-01.png" alt="Logo de Mighty ducks">
+        </div>
+        <ul>
+            <li class="main"><a href="/home.html" class="mainButton">Home</a></li>
+            <li><a href="/about.html"> About</a></li>
+            <li><a href="/contact.html"> contact</a></li>
+            <li><a href="/schedule.html"> Schedule</a></li>
+            <li><a href="/rules.html"> Rules</a></li>
+        </ul>
     </nav>
-    <div>
-        <img class="Image" src="/Assets/Images/hockey__1.jpg" alt="imagen de jugador de hockey">
-        <h3>Upcoming Events</h3>
-        <div>
-            <div>August 4</div>
-            <div>MDSL Fundraiser</div>
+    <header>
+        <div class="headerContainer">
+            <img class="Image" src="/Assets/Images/design1_image1.jpg" alt="imagen de jugador de hockey">
+            <h1 class="centered">Mighty Ducks Hockey League</h1>
         </div>
+    </header>
+    <h2>Upcoming Events</h2>
+    <section>
         <div>
-            <div>August 16</div>
-            <div>Season Kick-off: Meet the Teams</div>
+            <img class="Logo" src="/Assets/Images/Logo_Mighty_ducks-01.png" alt="Logo de Mighty ducks">
         </div>
-        <div>
-            <div>September 1</div>
-            <div>First Game of the Season (Check Game Schedule for details)</div>
+        <div class="contenidoSection">
+            <div>
+                <h4 class="title">August 4</h4>
+                <p class="text">MDSL Fundraiser</p>
+            </div>
+            <div>
+                <h4 class="title">August 16</h4>
+                <p class="text">Season Kick-off: Meet the Teams</p>
+            </div>
+            <div>
+                <h4 class="title">September 1</h4>
+                <p class="text">First Game of the Season (Check Game Schedule for details)</p>
+            </div>
         </div>
-    </div>
+    </section>
+    <footer>
+
+    </footer>
 </body>
 
 </html>

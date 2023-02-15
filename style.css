@@ -1,0 +1,55 @@
+/* * {
+    border: 2px solid red;
+} */
+header{
+    display: flex;
+    flex: 1;
+}
+nav {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px; left: 0px;
+}
+nav a {
+    border: solid 0.1rem black;
+    text-decoration: none;
+    background-color: dodgerblue;
+    margin: 0.3rem;
+    color: white;
+    padding: 0.4rem 1.5rem;
+    left: 3rem;
+    top: 1rem;
+}
+.mainButton{
+    background-color: green;
+}
+#Logo {
+    height: 70px;
+}
+
+.Image {
+    width: 100%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 20px;
+}
+
+.text {
+    margin-left: 30px;
+    font-size: small
+}
+
+.content {
+    display: flex;
+}
+
+h3,
+h1 {
+    text-align: center;
+}
