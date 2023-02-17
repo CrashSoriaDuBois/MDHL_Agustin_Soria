@@ -16,7 +16,13 @@ body {
 .Logo {
     height: 55px;
 }
-
+section{
+    margin: 1rem;
+}
+iframe{
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
 /* 
 
 Nav __________________________________
