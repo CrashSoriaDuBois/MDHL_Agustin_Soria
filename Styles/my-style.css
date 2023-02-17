@@ -23,6 +23,17 @@ iframe{
     border-radius: 0.5rem;
     margin: 1rem;
 }
+input{
+    background-color: transparent;
+    
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 0.05rem;
+    padding: 3px 10px;
+}
 /* 
 
 Nav __________________________________
